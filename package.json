@@ -1,0 +1,26 @@
+{
+  "name": "js-homework-10-color-switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel  ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /js-homework-10-color-switch/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chivova/js-homework-10-color-switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chivova/js-homework-10-color-switch/issues"
+  },
+  "homepage": "https://github.com/Chivova/js-homework-10-color-switch#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
